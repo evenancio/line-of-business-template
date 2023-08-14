@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="backdrop"></div>
+    <div class="container">
+      <div class="mobile-logo">
+        <span class="mobile-menu material-symbols-sharp"> menu </span>
+        <h2>Line Of <strong>Business</strong></h2>
+      </div>
+      <div class="logo">
+        <h2>Line Of <strong>Business</strong></h2>
+      </div>
+      <div class="page-title"><h2>Analytics</h2></div>
+      <div class="user-settings">
+        <div class="user-settings__buttons">
+          <span class="user-settings__light-mode material-symbols-sharp">
+            light_mode </span
+          ><span class="user-settings__dark-mode material-symbols-sharp">
+            dark_mode
+          </span>
+        </div>
+        <div class="user-settings__profile">
+          <div class="user-settings__profile-box">
+            <div>Hello, <strong>Mister</strong></div>
+            <div>Admin</div>
+          </div>
+          <img src="https://randomuser.me/api/portraits/lego/5.jpg" alt="Me" />
+        </div>
+      </div>
+
+      <aside class="box">
+        <ul>
+          <li>
+            <span class="material-symbols-sharp"> dashboard </span
+            ><span>Dashboard</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> person </span
+            ><span>Users</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> history </span
+            ><span>History</span>
+          </li>
+          <li class="menu-item-active">
+            <span class="material-symbols-sharp"> analytics </span
+            ><span>Analytics</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> mail </span
+            ><span>Tickets</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp">
+              <span class="material-symbols-sharp">
+                real_estate_agent
+              </span> </span
+            ><span>Sale List</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> summarize </span
+            ><span>Reports</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> settings </span
+            ><span>Settings</span>
+          </li>
+          <li>
+            <span class="material-symbols-sharp"> login </span
+            ><span>New Login</span>
+          </li>
+          <li class="x">
+            <span class="material-symbols-sharp"> logout </span
+            ><span>Logout</span>
+          </li>
+        </ul>
+      </aside>
+
+      <main>
+        <section>
+          <div class="graphs">
+            <div class="box">
+              <div>
+                <h5>Total Sales</h5>
+                <h2>$65,024</h2>
+              </div>
+              <div>
+                <svg height="100" width="100">
+                  <circle
+                    cx="50"
+                    cy="50"
+                    r="40"
+                    stroke="#ff9800"
+                    stroke-width="10"
+                    stroke-dashoffset="-30"
+                    stroke-dasharray="240"
+                    fill="none"
+                  />
+                  <text x="50%" y="55%" text-anchor="middle" fill="#ff9800">
+                    50%
+                  </text>
+                </svg>
+              </div>
+            </div>
+            <div class="box">
+              <div>
+                <h5>Site Visit</h5>
+                <h2>24,981</h2>
+              </div>
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#ff9800"
+                  stroke-width="10"
+                  stroke-dashoffset="-30"
+                  stroke-dasharray="240"
+                  fill="none"
+                />
+                <text x="50%" y="55%" text-anchor="middle" fill="#ff9800">
+                  50%
+                </text>
+              </svg>
+            </div>
+            <div class="box">
+              <div>
+                <h5>Searches</h5>
+                <h2>14,147</h2>
+              </div>
+              <svg height="100" width="100">
+                <circle
+                  cx="50"
+                  cy="50"
+                  r="40"
+                  stroke="#ff9800"
+                  stroke-width="10"
+                  stroke-dashoffset="-30"
+                  stroke-dasharray="240"
+                  fill="none"
+                />
+                <text x="50%" y="55%" text-anchor="middle" fill="#ff9800">
+                  50%
+                </text>
+              </svg>
+            </div>
+          </div>
+
+          <div class="users">
+            <h3>New Users</h3>
+            <div class="box">
+              <div>
+                <img
+                  src="https://randomuser.me/api/portraits/lego/6.jpg"
+                  alt="1"
+                />
+                <h4>John Doe</h4>
+                <p>3 min ago</p>
+              </div>
+              <div>
+                <img
+                  src="https://randomuser.me/api/portraits/lego/0.jpg"
+                  alt="1"
+                />
+                <h4>John Doe</h4>
+                <p>3 min ago</p>
+              </div>
+              <div>
+                <img
+                  src="https://randomuser.me/api/portraits/lego/1.jpg"
+                  alt="1"
+                />
+                <h4>John Doe</h4>
+                <p>3 min ago</p>
+              </div>
+              <div>
+                <img
+                  src="https://randomuser.me/api/portraits/lego/7.jpg"
+                  alt="1"
+                />
+                <h4>John Doe</h4>
+                <p>3 min ago</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="orders">
+            <h3>Recent Orders</h3>
+            <div class="box">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Order ID</th>
+                    <th>Product</th>
+                    <th>Customer</th>
+                    <th>Status</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>#OD1711</td>
+                    <td>Iphone 6</td>
+                    <td>John Doe</td>
+                    <td>
+                      <span>Shipped</span>
+                    </td>
+                    <td>$350</td>
+                  </tr>
+                  <tr>
+                    <td>#OD1711</td>
+                    <td>Iphone 6</td>
+                    <td>John Doe</td>
+                    <td>
+                      <span>Shipped</span>
+                    </td>
+                    <td>$350</td>
+                  </tr>
+                  <tr>
+                    <td>#OD1711</td>
+                    <td>Iphone 6</td>
+                    <td>John Doe</td>
+                    <td>
+                      <span>Shipped</span>
+                    </td>
+                    <td>$350</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+
+        <p class="show-all">Show All</p>
+      </main>
+
+      <section class="right-menu">
+        <div class="profile box">
+          <img src="https://randomuser.me/api/portraits/lego/3.jpg" alt="1" />
+          <h4>John Doe</h4>
+          <p>Fullstack Web Developer</p>
+        </div>
+        <div class="reminders">
+          <h3>Reminders</h3>
+          <div class="box">
+            <img src="https://randomuser.me/api/portraits/lego/2.jpg" alt="1" />
+            <div>
+              <h4>Workshop</h4>
+              <p>08:00 AM - 12:00 PM</p>
+            </div>
+            <div>
+              <span class="material-symbols-sharp"> more_vert </span>
+            </div>
+          </div>
+          <div class="box">
+            <img src="https://randomuser.me/api/portraits/lego/4.jpg" alt="1" />
+            <div>
+              <h4>Workshop</h4>
+              <p>08:00 AM - 12:00 PM</p>
+            </div>
+            <div>
+              <span class="material-symbols-sharp"> more_vert </span>
+            </div>
+          </div>
+          <div class="box add-reminder">
+            <p>+ Add Reminder</p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
